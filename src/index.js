@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import QuizApp from './QuizApp';
+import './index.css';
 
+/* This code is creating a root React component using `ReactDOM.createRoot` and rendering the `Quiz` component inside it. The `React.StrictMode` component is used to enable strict mode for the `Quiz` component, which helps catch potential issues and warnings during development. */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <QuizApp />
   </React.StrictMode>
 );
 
